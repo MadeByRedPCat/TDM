@@ -1,0 +1,9 @@
+[Unit]
+Description=Terminal Display Manager
+
+[Service]
+Type=exec
+ExecStart=/usr/bin/tdm
+
+[Install]
+WantedBy=default.target
